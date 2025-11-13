@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/root/.vim'
+let g:netrw_dirhist_9='/root'
+let g:netrw_dirhist_8='/root/.vim'
+let g:netrw_dirhist_7='/root'
+let g:netrw_dirhist_6='/root/code/mio/web_server/src'
+let g:netrw_dirhist_5='/root/code/mio/web_server'
+let g:netrw_dirhist_4='/root/trmaa.github.io/src'
+let g:netrw_dirhist_3='/root/trmaa.github.io'
+let g:netrw_dirhist_2='/root/trmaa.github.io/src'
+let g:netrw_dirhist_1='/root/trmaa.github.io'
