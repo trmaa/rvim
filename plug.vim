@@ -23,8 +23,8 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<C
 " ALE
 let g:ale_pattern_options = {
 \   '.*': {'ale_enabled': 0},
-\   '\.c$': {'ale_enabled': 1},
-\   '\.h$': {'ale_enabled': 1},
+\   '\.c$': {'ale_enabled': 0},
+\   '\.h$': {'ale_enabled': 0},
 \}
 
 let g:ale_sign_error = '✗'

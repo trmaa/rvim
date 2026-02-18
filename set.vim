@@ -2,7 +2,7 @@ syntax on
 
 set incsearch
 
-set scrolloff=12
+set scrolloff=8
 
 set termguicolors
 colorscheme default
