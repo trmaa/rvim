@@ -14,6 +14,7 @@ call plug#begin()
 	" Or disable specific ones if needed:
 	" let g:polyglot_disabled = ['markdown', 'yaml']
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'rose-pine/vim'
 call plug#end()
 
 " COC
@@ -31,6 +32,8 @@ let g:ale_sign_error = '✗'
 let g:ale_sign_warning = '⚠'
 let g:ale_echo_warning = 0
 let g:show_warnings = 0
+
+set signcolumn=no
 
 " FZF
 nnoremap <C-f> :Files<CR>
