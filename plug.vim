@@ -35,6 +35,8 @@ let g:show_warnings = 0
 
 set signcolumn=no
 
+:CocDisable
+
 " FZF
 nnoremap <C-f> :Files<CR>
 nnoremap <C-g> :Rg<CR>

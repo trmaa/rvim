@@ -5,8 +5,8 @@ set incsearch
 set scrolloff=8
 
 set termguicolors
-colorscheme default
-"colorscheme retrobox
+"colorscheme default
+colorscheme retrobox
 set background=dark
 "set background=light
 hi Normal ctermbg=16 guibg=#000000
@@ -17,3 +17,6 @@ set shiftwidth=8
 
 set colorcolumn=80
 "set textwidth=80
+
+hi whitespace ctermbg=green guibg=green
+match whitespace /\s\+$/
